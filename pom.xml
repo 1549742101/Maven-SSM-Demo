@@ -368,7 +368,7 @@
                 <configuration>
                     <verbose>true</verbose>
                     <overwrite>true</overwrite>
-                    <!--<configurationFile>src/main/resources/config/mybatis-generator-config.xml</configurationFile>-->
+                    <configurationFile>src/main/resources/config/mybatis-generator-config.xml</configurationFile>
                 </configuration>
             </plugin>
         </plugins>
@@ -377,18 +377,14 @@
             <resource>
                 <directory>src/main/java</directory>
                 <includes>
-                    <include>**/*.properties</include>
-                    <include>**/*.xml</include>
+                    <include>**/*.*</include>
                 </includes>
-                <filtering>false</filtering>
             </resource>
             <resource>
                 <directory>src/main/resources</directory>
                 <includes>
-                    <include>**/*.properties</include>
-                    <include>**/*.xml</include>
+                    <include>**/*.*</include>
                 </includes>
-                <filtering>false</filtering>
             </resource>
         </resources>
 
