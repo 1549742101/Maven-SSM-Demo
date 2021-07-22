@@ -20,9 +20,9 @@
 
         <!-- 数据库链接地址账号密码 -->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://cdb-1lmq810s.cd.tencentcdb.com:10055/study"
+                        connectionURL="jdbc:mysql://sqlurl:10055/study"
                         userId="root"
-                        password="xgl020331" >
+                        password="sqlpass" >
         </jdbcConnection>
 
         <!-- 生成Model类存放位置 -->
